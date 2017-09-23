@@ -1,0 +1,22 @@
+{
+    "name": "stylelint-config-textpress",
+    "version": "0.0.1",
+    "description": "Textpress' stylelint rules",
+    "main": "index.js",
+    "repository": "https://github.com/github:textpress/stylelint-config-textpress",
+    "license": "MIT",
+    "scripts": {
+        "bump": "gulp bump --part",
+        "ci-build": "echo \"nothig to build\"",
+        "ci-test": "echo \"no tests, sorry!\"",
+        "ci-release-notes": "conventional-github-releaser -p eslint"
+    },
+    "dependencies": {
+        "stylelint-config-standard": "^17.0.0"
+    },
+    "devDependencies": {
+        "@textpress/gulp-bump-version": "^0.2.0",
+        "conventional-github-releaser": "^1.1.12",
+        "gulp": "^3.9.1"
+    }
+}
